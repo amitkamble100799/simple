@@ -1,0 +1,536 @@
+*{
+    margin: 1px;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+   background-color: #3D087B; 
+}
+.Container{
+    display: flex;
+    position: absolute;
+}
+#clock{
+    width: 200px;
+    margin: 5px;
+    margin-bottom: 10px
+    
+}
+.Container1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;  
+    position: relative;
+    left: 50px;
+}
+.Container2{
+position: relative;
+width: 600px;
+top: -40px;
+left: 7%;
+}
+#group{
+    display: flex;
+    flex-direction: column;
+background-color: white;
+ color:#3D087BDE ;
+ padding: 10px;
+height: 360px;
+width: 580px;
+padding:5px;
+}
+.below-class{
+    padding: 10px;
+    display: flex;
+    justify-content:flex-start;
+gap: 20px;
+}
+.below-class1{
+    padding: 10px;
+    padding-top: 30px;
+    display: flex;
+    justify-content:flex-start;
+gap: 26px;
+}
+.below-class2{
+    padding: 10px;
+    padding-top: 30px;
+    display: flex;
+    justify-content:flex-start;
+gap: 30px;
+}
+.below-class3{
+    padding: 10px;
+    padding-top: 30px;
+    display: flex;
+    justify-content:flex-start;
+gap: 40px;
+}
+.group1{
+    display:flex;
+    padding: 20px;
+}
+.line{
+    position: relative;
+    height: 25px;
+    left: -178px;
+    top: 40px;
+}
+.line1{
+    position: relative;
+    height: 25px;
+    left: -175px;
+    top: 40px;
+}
+.line2{
+    position: relative;
+    height: 25px;
+    left: -170px;
+    top: 40px;
+}
+
+.p1{
+    padding: 1px;
+    font-weight: bold;
+}
+.p2{
+   position: relative;
+   left: -8px;
+    font-weight: bold;
+}
+.p3{
+    position: relative;
+    left: -10px;
+     font-weight: bold;
+ }
+ .p4{
+    position: relative;
+    left: -21px;
+     font-weight: bold;
+ }
+#morning{
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+#lunch{
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end; 
+}
+#nap{
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;  
+}
+#night1{
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+#gn{
+    padding-top: 20px;
+    height: 60px;
+    width: 580px;
+    background-color: #C539B4;
+    opacity: 25%;
+}
+#gnn{
+    position: relative;
+    top: -55px;
+    color: white;
+    text-align: center;
+    font-size:x-large;
+    font-weight: bold;
+    opacity: 100%;
+}
+.after-gn{
+   display: flex;
+   gap: 20px;
+}
+button{
+    position: relative;
+    font-weight: bold;
+    font-size: x-large;
+    color: aliceblue;
+    top: -35px;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    background-image: linear-gradient(to left,blueviolet,#C539B4);
+}
+button{
+    padding-top: 4px;
+    font-weight: bold;
+    font-size: 24px;
+    color: aliceblue;
+    text-align: center;
+}
+button:hover span{
+    display: none;
+}
+button:hover:before{
+    content:"Party Time!";
+  
+}
+.set-text{
+    position: relative;
+    top: -35px;
+    left: 92px;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    background-color: #6e168b;
+    border-radius: 10px;
+    width:250px;
+    height:125px;
+    color: #C539B4;
+   font-family: "Inter",sans-serif;
+   gap: 10px;
+}
+
+.empty1{
+    position: relative;
+  right: 100%;
+    top: 9%;
+    height: 120px;
+    width: 250px;
+    opacity: 35%;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+.empty2{
+    position: relative;
+    right:110%;
+    top: -15%;
+    height: 130px;
+    width: 300px;
+    opacity: 80%;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+#hour{
+    background-color: aqua;
+}
+.empty3{
+    height: 100px;
+    width: 610px;
+    background-color: azure;
+    border-radius: 20px;
+    color: #8E53F0;
+    position: absolute;
+    top: 30%;
+    left: 48%;
+}
+#displaytext{
+     font-size: x-large; 
+    font-weight: bold;
+     position: relative;
+    top: 30%;  
+     text-align: center;
+}
+#img{
+    position: absolute;
+   height: 300px;
+   top: 58%;
+   left: 40%;
+}
+/* */
+#container3{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    position: relative;
+    top: 5%;
+    left: 5%;
+    height:150px;
+    width: 600px;
+    color: #6e168b ;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    gap: 1px;
+    z-index: 1;
+    
+}
+
+.ten{
+    text-align: center;
+    color:rgb(72, 5, 135) ;
+    font-size:0.5em;
+}
+.hrs{
+    position: relative;
+    left: -5%;
+    top: -12%;
+    text-align: center;
+    color: rgb(72, 5, 135);
+    font-size:0.5em;
+}
+#at{
+    font-size: 1.5em;
+    
+    color: white;
+}
+.box1{
+    width:70px;
+    height:90px;
+    background-image: linear-gradient(
+        to bottom,
+        blueviolet,
+        #C539B4
+    );
+    margin:5px;
+    text-align: center;
+    font-family: "Noto Sans Display",sans-serif;
+} 
+.box{
+    position: relative;
+    bottom: 90%;
+    width:70px;
+    height:90px;
+    background-color: #e9c5e4;
+    margin: 5px;
+    text-align: center;
+    font-family: "Noto Sans Display",sans-serif;
+}
+.timeline{
+    display:flex;
+    flex-direction: row;
+    padding: 5px;
+
+}
+.time{
+    color: rgb(72, 5, 135);
+    font-size: 1em;
+    font-family: "Inter",sans-serif;
+    padding: 10px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.ten{
+    text-align: center;
+    color:rgb(72, 5, 135) ;
+    font-size:0.5em;
+    position: relative;
+    left: -5%;
+    top: -2%;
+    
+}
+#dbb{
+    position: relative;
+    bottom: 10%;
+    font-size:2.1em;
+}
+#hr{
+    font-size:1em;
+  padding-left: 5px;
+  position: relative;
+  left: -12%;
+}
+#mint{
+    text-align: center;
+    color: rgb(72, 5, 135);
+    font-size:0.5em;
+}
+#min{
+    font-size:1em;
+  padding-left: 5px;
+
+}
+#hr{
+    font-size:1em;
+  padding-left: 5px;
+  position: relative;
+  left: -12%;
+}
+#sec{
+    font-size:1em;
+    padding-left: 5px;
+}
+#am{
+    font-size:1em;
+}
+#ChangePhoto{
+    width: 500px;
+position: absolute;
+top: 12%;
+left: 40%;
+height: 400px;
+}
+/* mobile view*/
+@media screen and (min-width: 360px) and (max-width: 720px){
+
+   
+    .Container{
+        display: flex;
+       flex-direction: column;
+       margin: 10px;
+      
+    }
+    .Container2{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 3%;
+        
+    }
+    .clock{
+        position: absolute;
+        top: -30%;
+    }
+    .Container1{
+      position: absolute;
+      top: -20%;
+        
+        
+    }
+   .group{
+        position: absolute;
+        top: 450px;
+        display: flex;
+        flex-direction: column;
+        
+    } 
+    .after-gn{
+position: absolute;
+top: 960px;
+    }
+    
+    .t1{
+        position: absolute;
+      
+    }
+    .Container3{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+    } 
+    .empty1{
+        position: absolute;
+        top: 13%;
+        left: 35%;
+    }
+     .empty2{
+        position: absolute;
+        top: 7%;
+        left: 30%;
+    }
+    .empty3{
+        position: absolute;
+        top: 210px; 
+        left: 10%;
+    }
+    #img{
+        position: absolute;
+        top: 205%;
+        left: 8%;
+    }
+    #ChangePhoto{
+        position: relative;
+        left: 40px;
+    }
+  #gn{
+    position: absolute;
+    top: 840px;
+  }
+     #gnn{
+        position: absolute;
+        top: 840px;
+        display: flex;
+        width: 400px;
+        padding: 10px;
+        justify-content: space-between; 
+    } 
+}
+/* tab view*/
+@media screen and (min-width: 720px) and (max-width: 1000px){
+
+    .Container{
+        display: flex;
+       flex-direction: column;
+       margin: 10px;
+      
+    }
+    .Container2{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 3%;
+        
+    }
+    .clock{
+        position: absolute;
+        top: -30%;
+    }
+    .Container1{
+      position: absolute;
+      top: -20%;
+        
+        
+    }
+   .group{
+        position: absolute;
+        top: 450px;
+        display: flex;
+        flex-direction: column;
+        
+    } 
+    .after-gn{
+position: absolute;
+top: 960px;
+    }
+    
+    .t1{
+        position: absolute;
+      
+    }
+    .Container3{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+    } 
+    .empty1{
+        position: absolute;
+        top: 13%;
+        left: 35%;
+    }
+     .empty2{
+        position: absolute;
+        top: 7%;
+        left: 30%;
+    }
+    .empty3{
+        position: absolute;
+        top: 210px; 
+        left: 10%;
+    }
+    #img{
+        position: absolute;
+        top: 205%;
+        left: 8%;
+    }
+    #ChangePhoto{
+        position: relative;
+        left: 40px;
+    }
+  #gn{
+    position: absolute;
+    top: 840px;
+  }
+     #gnn{
+        position: absolute;
+        top: 840px;
+        display: flex;
+        width: 400px;
+        padding: 10px;
+        justify-content: space-between; 
+    } 
+}
